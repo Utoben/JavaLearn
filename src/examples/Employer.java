@@ -1,11 +1,13 @@
+package examples;
+
 public class Employer {
     String name;
     String rank;
     double salary;
 
-//    Employer(String emp_name, String  emp_rank, double emp_salary){
+//    examples.Employer(String emp_name, String  emp_rank, double emp_salary){
 
-    Employer(String emp_name, String  emp_rank, double emp_salary){
+    public Employer(String emp_name, String emp_rank, double emp_salary){
 
         this.name = emp_name;
         this.rank = emp_rank;

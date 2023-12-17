@@ -1,8 +1,15 @@
+package practice_code;
+
+import box.Box;
+import examples.Dog;
+import examples.Employer;
+import examples.Human;
+
 public class Practice {
     public static void main(String[] args) {
         Dog dog = new Dog();
         dog.weight = 87;
-        dog.breed = "Dog";
+        dog.breed = "examples.Dog";
         dog.name = "Tuzik";
         dog.speed= 10;
 
@@ -12,7 +19,8 @@ public class Practice {
         Box box1 = new Box(10,10,10);
         box1.height = 10;
         box1.length = 10;
-        box1.width = 10;
+        box1.
+                width = 10;
 
         Box box2 = new Box(20,20,20);
         box2.height = 20;
