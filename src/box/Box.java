@@ -4,7 +4,7 @@ public class Box {
     public double length;
     public double width;
     public double height;
-    Box(double size){
+    public Box(double size){
         this(size, size,size);
     }
     public Box(double length, double width, double height){
@@ -12,7 +12,7 @@ public class Box {
         this.width = width;
         this.height = height;
     }
-    void compare(Box another){
+    public void compare(Box another){
         double currentVolume = getvolume();
         double anotherVolume = another.getvolume();
         if (currentVolume > anotherVolume) {

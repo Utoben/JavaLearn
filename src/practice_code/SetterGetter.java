@@ -1,5 +1,7 @@
 package practice_code;
 
+import examples.Person;
+
 public class SetterGetter {
     public static void main(String[] args) {
         Person person = new Person("John", 25);
